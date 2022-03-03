@@ -1,0 +1,66 @@
+.btn {
+	width: 120px;
+	height: 45px;
+	cursor: pointer;
+	border: none;
+	font-family: 'Ubuntu';
+}
+
+.btn:hover {
+	transition: all ease-out 0.2s;
+}
+
+.btn:active {
+	transform: scale(0.95);
+}
+
+.btn_white {
+	background-color: antiquewhite !important;
+	outline: 2px solid azure;
+}
+.btn_sand {
+	background-color: #c2a951 !important;
+	outline: 2px solid azure;
+}
+
+.btn_white:hover {
+	outline: 2px solid #adadad;
+	filter: brightness(95%);
+}
+
+.btn_sand:hover {
+	outline: 2px solid #111 !important;
+	filter: brightness(95%);
+}
+
+.btn_orange {
+	background-color: orange !important;
+	outline: 2px solid azure;
+}
+
+.btn_orange:hover {
+	outline: 2px solid orangered;
+	filter: brightness(110%);
+}
+
+.btn_green {
+	background-color: #439b43 !important;
+	outline: 2px solid azure;
+	color: white;
+}
+
+.btn_green:hover {
+	outline: 2px solid #2c583a;
+	filter: brightness(110%);
+}
+.btn_blue {
+	color: white;
+	background-color: #7d4adb !important;
+	outline: 2px solid azure;
+}
+
+.btn_blue:hover {
+	outline: 2px solid #4c0fad;
+	filter: brightness(110%);
+}
+
